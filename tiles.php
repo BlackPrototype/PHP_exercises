@@ -71,6 +71,7 @@
             $ajtoSzelessege = $_POST["ajtoSzelessege"]; //width of the door
             $ablakMagassaga = $_POST["ablakMagassaga"]; //height of the window
             $ablakSzelessege = $_POST["ablakSzelessege"]; //width of the window
+            
             //whole area with the door and the window
             $teljesFelulet = 2 * $csempeMagassag * $helyisegHossza + 2 * $csempeMagassag * $helyisegSzelessege + $helyisegHossza * $helyisegSzelessege;
             //The area we need to cover with tiles
